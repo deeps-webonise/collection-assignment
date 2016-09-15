@@ -8,10 +8,8 @@ import java.util.Comparator;
 public class UserInfo {
     private String userName;
     private String name;
-
-
     private String email;
-    double age;
+    private double age;
 
     public double getAge() { return age; }
 
