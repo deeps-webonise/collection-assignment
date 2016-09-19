@@ -1,4 +1,4 @@
-package com.webonise.collectionAssignment;
+package com.webonise.collectionassignment;
 
 import com.mongodb.DB;
 import com.mongodb.DBCollection;

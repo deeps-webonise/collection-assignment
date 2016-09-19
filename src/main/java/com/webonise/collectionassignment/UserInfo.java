@@ -1,4 +1,4 @@
-package com.webonise.collectionAssignment;
+package com.webonise.collectionassignment;
 
 /**
  * Created by deep on 15/9/16.

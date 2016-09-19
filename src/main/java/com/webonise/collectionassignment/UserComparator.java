@@ -1,4 +1,4 @@
-package com.webonise.collectionAssignment;
+package com.webonise.collectionassignment;
 
 import java.util.Comparator;
 
