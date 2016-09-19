@@ -26,7 +26,6 @@ public class AList implements ICollectionMenu {
                 info.setAge(basicDBObject.getDouble("age"));
 
                 userInfo.add(info);
-
             }
 
             Collections.sort(userInfo, new UserComparator());
@@ -37,17 +36,10 @@ public class AList implements ICollectionMenu {
             else
                 System.out.println("No Elements found");
 
-
-
         } catch (Exception e) {
             System.err.println(e.getClass().getName() + ": " + e.getMessage());
         }
     }
 
-
-
-
-
-
-    }
+}
 

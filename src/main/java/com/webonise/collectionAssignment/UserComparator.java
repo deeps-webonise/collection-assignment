@@ -18,6 +18,4 @@ public class UserComparator implements Comparator<UserInfo> {
         }
 
     }
-
-
 }
