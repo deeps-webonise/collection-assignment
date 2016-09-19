@@ -1,7 +1,5 @@
 package com.webonise.collectionAssignment;
 
-import java.util.Comparator;
-
 /**
  * Created by deep on 15/9/16.
  */
@@ -9,7 +7,7 @@ public class UserInfo {
     private String userName;
     private String name;
     private String email;
-    private double age;
+    double age;
 
     public double getAge() { return age; }
 

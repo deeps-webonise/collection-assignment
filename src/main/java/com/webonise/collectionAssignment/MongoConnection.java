@@ -25,7 +25,7 @@ public class MongoConnection {
         System.out.println("Connect to database successfully");
 
         coll = db.getCollection("users");
-        System.out.println("Collection users selected successfully");
+        System.out.println("Collections users selected successfully");
 
         cursor = coll.find();
         return cursor;
