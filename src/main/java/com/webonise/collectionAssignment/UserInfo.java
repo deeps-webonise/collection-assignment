@@ -9,6 +9,7 @@ public class UserInfo {
     private String email;
     double age;
 
+
     public double getAge() { return age; }
 
     public void setAge(double age) { this.age = age; }
