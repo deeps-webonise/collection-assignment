@@ -29,20 +29,15 @@ public class MongoConnection {
 
         cursor = coll.find();
         return cursor;
-
     }
 
 
-    public void print(List<UserInfo> ref)
-    {
-
-        for(UserInfo userIt : ref)
-        {
+    public void print(List<UserInfo> ref) {
+        for(UserInfo userIt : ref) {
             System.out.print("UserName: " + userIt.getUserName());
             System.out.print( " Name: " +  userIt.getName());
             System.out.print( " Email: " + userIt.getEmail());
             System.out.println(" Age: " + userIt.getAge());
-
         }
     }
 
@@ -51,7 +46,7 @@ public class MongoConnection {
         if (this == o) return true;
         if (!(o instanceof MongoConnection)) return false;
 
-        MongoConnection that= (MongoConnection) o;
+        MongoConnection that = (MongoConnection) o;
 
         if (!mongoClient.equals(that.mongoClient)) return false;
         if (!db.equals(that.db)) return false;

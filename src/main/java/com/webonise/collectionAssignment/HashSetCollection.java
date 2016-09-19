@@ -10,7 +10,7 @@ import java.util.Set;
 /**
  * Created by webonise on 19/9/16.
  */
-public class HSet implements ICollectionMenu {
+public class HashSetCollection implements ICollectionMenu {
 
     public void useCollectionToDisplayData() {
         try {

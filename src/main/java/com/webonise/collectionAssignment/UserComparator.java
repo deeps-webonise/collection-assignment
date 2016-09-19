@@ -8,7 +8,6 @@ import java.util.Comparator;
 
 public class UserComparator implements Comparator<UserInfo> {
 
-
     @Override
     public int compare(UserInfo ageCompare1, UserInfo ageCompare2 ) {
         if(ageCompare1.getAge() > ageCompare2.getAge()){
@@ -16,6 +15,5 @@ public class UserComparator implements Comparator<UserInfo> {
         } else {
             return -1;
         }
-
     }
 }

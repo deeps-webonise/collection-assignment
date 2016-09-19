@@ -10,9 +10,13 @@ public class UserInfo {
     double age;
 
 
-    public double getAge() { return age; }
+    public double getAge() {
+        return age;
+    }
 
-    public void setAge(double age) { this.age = age; }
+    public void setAge(double age) {
+        this.age = age;
+    }
 
     public String getUserName() {
         return userName;
@@ -37,6 +41,4 @@ public class UserInfo {
     public void setEmail(String email) {
         this.email = email;
     }
-
-
 }
