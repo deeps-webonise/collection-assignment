@@ -33,10 +33,10 @@ public class MongoConnection {
 
 
     public void print(List<UserInfo> ref) {
-        for(UserInfo userIt : ref) {
+        for (UserInfo userIt : ref) {
             System.out.print("UserName: " + userIt.getUserName());
-            System.out.print( " Name: " +  userIt.getName());
-            System.out.print( " Email: " + userIt.getEmail());
+            System.out.print(" Name: " + userIt.getName());
+            System.out.print(" Email: " + userIt.getEmail());
             System.out.println(" Age: " + userIt.getAge());
         }
     }

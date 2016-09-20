@@ -10,9 +10,10 @@ import java.util.Map;
  * Created by webonise on 19/9/16.
  */
 public class HashMapCollection implements ICollectionMenu {
-    public void useCollectionToDisplayData(){
+    @Override
+    public void useCollectionToDisplayData() {
         try {
-            Map<Double,String> userInfoMap = new HashMap<>();
+            Map<Double, String> userInfoMap = new HashMap<>();
             MongoConnection mongoConnection = new MongoConnection();
             DBCursor cursor = mongoConnection.connection();
 
@@ -21,10 +22,10 @@ public class HashMapCollection implements ICollectionMenu {
                 basicDBObject = (BasicDBObject) cursor.next();
                 double age = basicDBObject.getDouble("age");
                 String name = basicDBObject.getString("username");
-                userInfoMap.put(age,name);
+                userInfoMap.put(age, name);
             }
-            String val=(String)userInfoMap.get(22.0);
-            System.out.println("Value :"+ val);
+            String val = (String) userInfoMap.get(22.0);
+            System.out.println("Value :" + val);
 
             if ((!userInfoMap.isEmpty())) {
                 System.out.println("Size : " + userInfoMap.size());

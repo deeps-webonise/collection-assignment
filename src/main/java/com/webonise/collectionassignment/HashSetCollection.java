@@ -11,7 +11,7 @@ import java.util.Set;
  * Created by webonise on 19/9/16.
  */
 public class HashSetCollection implements ICollectionMenu {
-
+    @Override
     public void useCollectionToDisplayData() {
         try {
             Set<String> hashSet = new HashSet<>();
@@ -25,13 +25,13 @@ public class HashSetCollection implements ICollectionMenu {
                 hashSet.add(name);
             }
 
-            Iterator<String> itr=hashSet.iterator();
-            while(itr.hasNext())
+            Iterator<String> itr = hashSet.iterator();
+            while (itr.hasNext())
                 System.out.println(itr.next());
 
 
         } catch (Exception e) {
-           e.printStackTrace();
+            e.printStackTrace();
         }
     }
 }
