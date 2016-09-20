@@ -24,7 +24,6 @@ public class TestMain {
                 ICollectionMenu hashMapCollection = new HashMapCollection(); //Type Compatibility
                 hashMapCollection.useCollectionToDisplayData();
                 break;
-            
 
             default:
                 System.out.println("Invalid Choice");
