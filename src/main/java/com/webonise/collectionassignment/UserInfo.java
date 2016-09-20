@@ -1,8 +1,5 @@
 package com.webonise.collectionassignment;
 
-/**
- * Created by deep on 15/9/16.
- */
 public class UserInfo {
     private String userName;
     private String name;

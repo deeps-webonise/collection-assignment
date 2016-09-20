@@ -7,9 +7,6 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-/**
- * Created by webonise on 19/9/16.
- */
 public class HashSetCollection implements ICollectionMenu {
     @Override
     public void useCollectionToDisplayData() {

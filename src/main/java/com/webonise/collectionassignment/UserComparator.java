@@ -2,10 +2,6 @@ package com.webonise.collectionassignment;
 
 import java.util.Comparator;
 
-/**
- * Created by webonise on 15/9/16.
- */
-
 public class UserComparator implements Comparator<UserInfo> {
 
     @Override

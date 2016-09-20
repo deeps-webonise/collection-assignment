@@ -7,9 +7,6 @@ import com.mongodb.MongoClient;
 
 import java.util.List;
 
-/**
- * Created by webonise on 15/9/16.
- */
 public class MongoConnection {
 
     MongoClient mongoClient;

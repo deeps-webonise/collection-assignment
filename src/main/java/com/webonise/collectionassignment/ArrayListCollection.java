@@ -6,9 +6,6 @@ import com.mongodb.DBCursor;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Created by webonise o        n 19/9/16.
- */
 public class ArrayListCollection implements ICollectionMenu {
     @Override
     public void useCollectionToDisplayData() {

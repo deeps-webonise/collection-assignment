@@ -6,9 +6,6 @@ import com.mongodb.DBCursor;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by webonise on 19/9/16.
- */
 public class HashMapCollection implements ICollectionMenu {
     @Override
     public void useCollectionToDisplayData() {
