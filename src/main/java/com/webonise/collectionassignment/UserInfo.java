@@ -38,4 +38,26 @@ public class UserInfo {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (this == object)
+            return true;
+        if (object == null || (object.getClass() != this.getClass()))
+            return false;
+
+        UserInfo userInfo = (UserInfo) object;
+
+        return age == userInfo.age && (userName == userInfo.userName || (userName != null && userName.equals(userInfo.userName)));
+
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 31 * hash + (int) age;
+        hash = 31 * hash + (null == userName ? 0 : userName.hashCode());
+        return hash;
+    }
 }
+

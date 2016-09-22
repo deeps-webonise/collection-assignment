@@ -37,27 +37,4 @@ public class MongoConnection {
             System.out.println(" Age: " + userIt.getAge());
         }
     }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof MongoConnection)) return false;
-
-        MongoConnection that = (MongoConnection) o;
-
-        if (!mongoClient.equals(that.mongoClient)) return false;
-        if (!db.equals(that.db)) return false;
-        if (!coll.equals(that.coll)) return false;
-        return cursor.equals(that.cursor);
-
-    }
-
-    @Override
-    public int hashCode() {
-        int result = mongoClient.hashCode();
-        result = 31 * result + db.hashCode();
-        result = 31 * result + coll.hashCode();
-        result = 31 * result + cursor.hashCode();
-        return result;
-    }
 }

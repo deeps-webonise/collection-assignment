@@ -7,7 +7,7 @@ public class TestMain {
     public static void main(String args[]) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Press 1 to use ArrayList\n Press 2 for Hash Set\n Press 3 for Hash Map");
+        System.out.println("Press 1 to use ArrayList\nPress 2 for Hash Set\nPress 3 for Hash Map");
         int choice = scanner.nextInt();
         switch (choice) {
             case 1:
