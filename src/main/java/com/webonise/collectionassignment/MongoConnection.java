@@ -9,10 +9,10 @@ import java.util.List;
 
 public class MongoConnection {
 
-    MongoClient mongoClient;
-    DB db;
-    DBCollection coll;
-    DBCursor cursor;
+    private MongoClient mongoClient;
+    private DB db;
+    private DBCollection coll;
+    private DBCursor cursor;
 
     DBCursor connection() {
         mongoClient = new MongoClient("localhost", 27017);
